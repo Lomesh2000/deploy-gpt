@@ -1,0 +1,24 @@
+paths:
+  raw_data: data/raw/data.txt
+  train_data: data/processed/train.txt
+  val_data: data/processed/val.txt
+  tokenizer: models/tokenizer.json
+  best_model: checkpoints/best_model.pt
+  runs: runs/
+
+training:
+  batch_size: 64
+  max_iters: 5000
+  eval_interval: 500
+  learning_rate: 3e-4
+  eval_iters: 200
+  patience: 5
+  random_seed: 1337
+  val_split: 0.1
+
+model:
+  n_embd: 384
+  n_head: 6
+  n_layer: 6
+  block_size: 256
+  dropout: 0.2
