@@ -56,18 +56,18 @@ random_seed   = 1337
 ## 📊 Training Metrics
 
 ### 🔁 Training Loss Curve
-![Training Loss](losses_curves/train_loss.png)
+![Training Loss](results/losses_curves/train_loss.png)
 
 ### 📉 Validation Loss Curve
-![Validation Loss](losses_curves/val_loss.png)
+![Validation Loss](results/losses_curves/val_loss.png)
 
 ### 🪜 Per-Step Training Loss (Batch-level change)
-![Per Step Loss](losses_curves/train_step_loss.png)
+![Per Step Loss](results/losses_curves/train_step_loss.png)
 
 <!-- <div align="center">
-  <img src="losses_curves/train_loss.png" width="32%" />
-  <img src="losses_curves/val_loss.png" width="32%" />
-  <img src="losses_curves/train_step_loss.png" width="32%" />
+  <img src="results/losses_curves/train_loss.png" width="32%" />
+  <img src="results/losses_curves/val_loss.png" width="32%" />
+  <img src="results/losses_curves/train_step_loss.png" width="32%" />
 </div> -->
 
 ## 📊 Training Metrics after applying lr schedular and cosine weight decay
@@ -76,13 +76,13 @@ random_seed   = 1337
 ### Early Stopping Criteria (Would be useful if iteration are increased to high numbers)
 
 ### Training Loss Curve
-![Training Loss](losses_curves/losses_lr_sch_wei_decay/loss_train.svg)
+![Training Loss](results/losses_curves/losses_lr_sch_wei_decay/loss_train.svg)
 
 ### Validation Loss Curve
-![Validation Loss](losses_curves/losses_lr_sch_wei_decay/val_loss.png)
+![Validation Loss](results/losses_curves/losses_lr_sch_wei_decay/val_loss.png)
 
 ### Per_step Training Loss Curve
-![Per Step Loss](losses_curves/losses_lr_sch_wei_decay/loss_train_step.svg)
+![Per Step Loss](results/losses_curves/losses_lr_sch_wei_decay/loss_train_step.svg)
 
 > Loss steadily decreases → model is learning patterns from text.
 
